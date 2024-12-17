@@ -10,17 +10,18 @@ themeSwitchButton.addEventListener('click', () => {
     var img2 = document.getElementById("imgtwo");
 
     // Define the image sources
-    const hackerImgSrc = "./photos/ahmed.jpg";
+    const hackerImgSrc1 = "./photos/ahmed.jpg";
+    const hackerImgSrc2 = "./photos/ahmed2.jpg";
     const originalImgSrc1 = "./photos/ahmed.jpg"; // Original image for img1
-    const originalImgSrc2 = "./photos/ahmed.jpg"; // Original image for img2
+    const originalImgSrc2 = "./photos/ahmed2.jpg"; // Original image for img2
 
     // Check if the image is already 'hacker.png', toggle back to the original
     if (img1.src.includes("ahmed2.jpg")) {
         img1.src = originalImgSrc1;
         img2.src = originalImgSrc2;
     } else {
-        img1.src = hackerImgSrc;
-        img2.src = hackerImgSrc;
+        img1.src = hackerImgSrc1;
+        img2.src = hackerImgSrc2;
     }
 });
 ////////////////////////////////theme//////////////////////////////
