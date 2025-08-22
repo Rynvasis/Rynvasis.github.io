@@ -1,0 +1,62 @@
+# ========================
+# OS generated files
+# ========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+
+# ========================
+# Visual Studio
+# ========================
+
+## Ignore build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]est[Rr]esult*/
+
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Visual Studio database/files
+*.dbmdl
+*.bak
+*.ldf
+*.mdf
+
+## Auto-generated files
+*.generated.*
+*.FileListAbsolute.txt
+
+## Publish files
+*.publishsettings
+
+## Other
+*.vs/
+_ReSharper*/
+*.ncrunch*
+*.ndoc
+
+# ========================
+# Logs
+# ========================
+*.log
+*.log.*
+
+# ========================
+# Temporary / Backup files
+# ========================
+*.tmp
+*.swp
+*.swo
+*~
